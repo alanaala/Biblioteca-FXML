@@ -35,9 +35,13 @@ Ele permite o cadastro de livros, controle de empréstimos, cálculo de multas p
 ##  Estrutura do Projeto
 
 └── com.alana.biblioteca/
+-
 ├── model/ # Classes Livro e Emprestimo
+-
 ├── controller/ # Lógica de negócio (BibliotecaController)
+-
 ├── view/ # Interface em Console
+-
 └── Main.java # Classe principal
 
 
@@ -54,10 +58,12 @@ Ele permite o cadastro de livros, controle de empréstimos, cálculo de multas p
 javac -d bin src/com/alana/biblioteca/**/*.java
 
 
+
 3. Execute a aplicação:
 
 java -cp bin com.alana.biblioteca.Main
 
+---
 
 ## Tipos de Manutenção Implementadas
 
